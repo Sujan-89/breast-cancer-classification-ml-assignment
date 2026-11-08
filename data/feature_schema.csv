@@ -1,0 +1,32 @@
+column,role,type,description
+mean_radius,input,numeric,Mean measurement of radius
+mean_texture,input,numeric,Mean measurement of texture
+mean_perimeter,input,numeric,Mean measurement of perimeter
+mean_area,input,numeric,Mean measurement of area
+mean_smoothness,input,numeric,Mean measurement of smoothness
+mean_compactness,input,numeric,Mean measurement of compactness
+mean_concavity,input,numeric,Mean measurement of concavity
+mean_concave_points,input,numeric,Mean measurement of concave points
+mean_symmetry,input,numeric,Mean measurement of symmetry
+mean_fractal_dimension,input,numeric,Mean measurement of fractal dimension
+radius_error,input,numeric,Standard error of radius
+texture_error,input,numeric,Standard error of texture
+perimeter_error,input,numeric,Standard error of perimeter
+area_error,input,numeric,Standard error of area
+smoothness_error,input,numeric,Standard error of smoothness
+compactness_error,input,numeric,Standard error of compactness
+concavity_error,input,numeric,Standard error of concavity
+concave_points_error,input,numeric,Standard error of concave points
+symmetry_error,input,numeric,Standard error of symmetry
+fractal_dimension_error,input,numeric,Standard error of fractal dimension
+worst_radius,input,numeric,Worst measurement of radius
+worst_texture,input,numeric,Worst measurement of texture
+worst_perimeter,input,numeric,Worst measurement of perimeter
+worst_area,input,numeric,Worst measurement of area
+worst_smoothness,input,numeric,Worst measurement of smoothness
+worst_compactness,input,numeric,Worst measurement of compactness
+worst_concavity,input,numeric,Worst measurement of concavity
+worst_concave_points,input,numeric,Worst measurement of concave points
+worst_symmetry,input,numeric,Worst measurement of symmetry
+worst_fractal_dimension,input,numeric,Worst measurement of fractal dimension
+target,target,integer,0 = benign; 1 = malignant

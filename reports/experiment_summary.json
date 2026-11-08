@@ -1,0 +1,32 @@
+{
+  "dataset": "Breast Cancer Wisconsin (Diagnostic)",
+  "n_samples": 569,
+  "n_features": 30,
+  "train_rows": 455,
+  "test_rows": 114,
+  "class_counts": {
+    "0": 357,
+    "1": 212
+  },
+  "train_class_counts": {
+    "0": 285,
+    "1": 170
+  },
+  "test_class_counts": {
+    "0": 72,
+    "1": 42
+  },
+  "split": "80/20 stratified holdout; random_state=42",
+  "positive_class": "1 = Malignant",
+  "precision_recall_f1_average": "binary",
+  "auc_input": "predict_proba column for class 1",
+  "undefined_precision_recall_f1": "zero_division=0",
+  "single_class_auc": "Not defined; the app displays N/A",
+  "winner_criterion": [
+    "F1",
+    "MCC",
+    "AUC"
+  ],
+  "test_set_used_for_parameter_tuning": false,
+  "preprocessing_fit_on": "training rows only"
+}

@@ -1,0 +1,20 @@
+{
+  "validated_on": "2026-11-08",
+  "python_version": "3.12.14",
+  "scikit_learn_version": "1.8.0",
+  "streamlit_version": "1.51.0",
+  "automated_tests": {
+    "command": "python -m unittest discover -s tests -v",
+    "passed": 25,
+    "failed": 0,
+    "core_tests": 17,
+    "frontend_tests": 8
+  },
+  "saved_model_metrics_match_to_decimal_places": 12,
+  "readme_unchanged_after_training": true,
+  "qualitative_observations_generated_by_training": false,
+  "local_streamlit_health_http_status": 200,
+  "local_frontend_html_http_status": 200,
+  "frontend_validation_method": "Streamlit AppTest, including simulated CSV uploads and prediction-error filters; local HTTP startup",
+  "cloud_deployed_during_preparation": false
+}
